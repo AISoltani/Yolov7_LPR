@@ -1,4 +1,5 @@
-# import torch
+# Import Torch
+
 from IPython.display import Image  # for displaying images
 import os 
 import random
@@ -78,8 +79,7 @@ def convert_to_yolov7(info_dict):
         
         #Write the bbox details to the file 
         print_buffer.append("{} {:.3f} {:.3f} {:.3f} {:.3f}".format(class_id, b_center_x, b_center_y, b_width, b_height))
-    
-        
+           
     # Name of the file which we have to save 
     save_file_name = os.path.join("xmls", info_dict["filename"].replace("png", "txt").replace("jpg", "txt"))
     
