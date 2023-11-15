@@ -15,7 +15,6 @@ import matplotlib.pyplot as plt
 
 
 
-
 random.seed(108)
 
 # Function to get the data from XML Annotation
