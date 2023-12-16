@@ -8,7 +8,6 @@ import xml.etree.ElementTree as ET
 origin_ann_dir = 'annotations/' #Input xmls folder
 new_ann_dir = 'new_annotations/xmls/'    #Output xmls folder
  
- 
 for dirpaths, dirnames, filenames in os.walk(origin_ann_dir):
   for filename in filenames:
     if os.path.isfile(r'%s%s' %(origin_ann_dir, filename)):
