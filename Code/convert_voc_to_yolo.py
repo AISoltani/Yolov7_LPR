@@ -1,4 +1,4 @@
-##### Import Lib
+##### Import Libraries
 
 from IPython.display import Image  # for displaying images
 import os 
