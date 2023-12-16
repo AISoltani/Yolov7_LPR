@@ -12,7 +12,6 @@ from PIL import Image, ImageDraw
 import numpy as np
 import matplotlib.pyplot as plt
 
-
 random.seed(108)
 
 # Function to get the data from XML Annotation
@@ -51,7 +50,7 @@ def extract_info_from_xml(xml_file):
     
     return info_dict
 
-# Dictionary that maps class names to IDs
+# Dictionary that maps class names to IDs.
 class_name_to_id_mapping = {"licence": 0}
 
 # Convert the info dict to the required yolo format and write it to disk
