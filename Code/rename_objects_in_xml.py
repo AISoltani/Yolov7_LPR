@@ -28,8 +28,4 @@ for dirpaths, dirnames, filenames in os.walk(origin_ann_dir):
         # if (name == "bus" ):
         #   name = "car"        
         object.find('name').text = name 
-        
-        
-   
-  
     tree.write(new_ann_path)
