@@ -1,4 +1,4 @@
-##### Import Torch
+##### Import Lib
 
 from IPython.display import Image  # for displaying images
 import os 
