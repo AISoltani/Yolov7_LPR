@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-#Rename some objects in xmls. i.e change car to var in all exmls. 
-# Librar
+# Rename some objects in xmls. i.e change car to var in all exmls. 
+# Import Libraries
 
 import os
 import xml.etree.ElementTree as ET
