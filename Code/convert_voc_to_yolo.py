@@ -33,7 +33,6 @@ def extract_info_from_xml(xml_file):
             image_size = []
             for subelem in elem:
                 image_size.append(int(subelem.text))
-            
             info_dict['image_size'] = tuple(image_size)
         
         # Get details of the bounding box 
@@ -47,7 +46,6 @@ def extract_info_from_xml(xml_file):
                     for subsubelem in subelem:
                         bbox[subsubelem.tag] = int(subsubelem.text)            
             info_dict['bboxes'].append(bbox)
-    
     return info_dict
 
 # Dictionary that maps class names to IDs.
