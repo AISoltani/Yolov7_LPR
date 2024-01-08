@@ -1,4 +1,4 @@
-# Yolov7_LPR
+## Yolov7_LPR
 
 ![Yolov7](https://github.com/AISoltani/Yolov7_LPR/blob/main/Documentation/Machine-Learning-Project-on-Number-Plate-Detection.png)
 
@@ -25,6 +25,3 @@ In this project, contains YOLOv7 on plate detection and recognition We will go t
 Go and see the project documentation here.
 
 Go and see the project documentation  [here.](https://github.com/AISoltani/Yolov7_LPR/blob/main/Documentation/LRP_Report.pdf)
-
-
-
